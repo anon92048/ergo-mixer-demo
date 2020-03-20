@@ -14,7 +14,7 @@ fee tokens (consumed by a box emitting fees, see [https://www.ergoforum.org/t/pa
 
 ## How To Play With The Demo
 
-Use "mixer.jar" from the root folder of the repo, or build it on your own with "sbt assembly" (& the maybe renaming resulting .jar file as I did).
+Use "mixer.jar" from the root folder of the repo, or build it on your own with "sbt assembly" (& maybe renaming resulting .jar file as I did).
 
 ErgoMix works as follows:
 
