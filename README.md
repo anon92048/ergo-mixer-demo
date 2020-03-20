@@ -1,13 +1,13 @@
 # ErgoMix
 
 
-This repository contains implementation of ErgoMix (a.k.a ZeroJoin), non-interactive (and thus non-custodial) mixing scheme on top of Ergo Platform.
+This repository contains implementation of ErgoMix (a.k.a ZeroJoin), non-interactive (and non-custodial) mixing scheme on top of the [Ergo Platform](https://ergoplatform.org/en/) blockchain.
 The scheme was designed by Ergo core developers (kushti and scalahub), and described in a paper coming (a draft is available @ https://github.com/anon92048/ergo-cli-mixer/blob/master/paper/ergomix.pdf )
 
 ## Why ErgoMix
 
 
-* It is non-interactive, so no any channel is needed outside of the Ergo blockchain. It helps to avoid a lot of problems with network-level security and also allows for bigger rings.
+* It is non-interactive, so no any channel is needed outside of the [Ergo blockchain](https://ergoplatform.org/en/). It helps to avoid a lot of problems with network-level security and also allows for bigger rings.
 * No limit on ring size, so ErgoMix can provide security similar to Monero and ZCoin after enough mixes done (ErgoMix is not hiding amounts though).
 * Many mixing schemes have flaws because of transaction fees to be paid to a miner. ErgoMix paper is proposing a solution based on 
 fee tokens (consumed by a box emitting fees, see [https://www.ergoforum.org/t/paying-fee-in-ergomix-in-primary-tokens/73](https://www.ergoforum.org/t/paying-fee-in-ergomix-in-primary-tokens/73)). 
@@ -116,7 +116,7 @@ java -cp mixer.jar AliceEntry --secret 197650 --inputBoxId 0b03f371330e590375d45
 
 ------------------------------------------------------------------------------------------------------
 
-And Bob can mix mix his full-mix box with the new half-mix box: 
+And Bob can mix his full-mix box with the new half-mix box: 
 
 Remix - Bob: 114600
 
